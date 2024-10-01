@@ -1,83 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
 * {
     font-family: "Spicy Rice", system-ui;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/japanart.jpg);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #FF6347;
+}
+
+input {
+    padding-left: 4px;
+    height: 40px;
+    border: 2px solid #FF7F50;
+    background-color: #333;
+    color: #eee;
     outline: none;
+    width: 74%;
 }
 
-body{
-    background: url("/img/japanart.jpg");
-}
-
-.container {
-    background-color: #d1d1d1;
-    width: 500px;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 100px auto 0;
-}
-
-.input-task {
+button {
+    padding: 4px;
     border: none;
-    border-radius: 5px;
-    width: 300px;
-    height: 40px;
-    padding-left: 10px;
-}
-
-.button-add-task {
-    border: none;
-    border-radius: 5px;
-    height: 40px;
-    background-color: #fe8330;
-    color: #ffffff;
-    font-size: 17px;
-    padding: 0 15px;
-    float: right;
+    height: 44px;
+    background-color: #FF7F50;
+    color: white;
     cursor: pointer;
-    font-weight: 700;
+    transition: 0.2s;
+    width: 90px;
 }
 
-.button-add-task:hover {
-    opacity: 0.7;
+button:hover {
+    background-color: #FF6347;
+    border-radius: 10px;
+    height: 48px;
 }
 
-.button-add-task:active {
-    opacity: 0.3;
+button:active {
+    background-color: #FF8C00;
 }
 
-.list-tasks {
-    width: 100%;
-    list-style: none;
-    margin-top: 30px;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.task {
-    background-color: #F2F2F2;
-    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
-    height: 50px;
+li {
+    background-color: #FF7F50;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 15px;
-    border-radius: 5px;
-    margin-bottom: 20px;
+}
+
+span {
     cursor: pointer;
-}
-
-img {
-    height: 25px;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.task:hover img {
-    opacity: 1;
-}
-
-.done {
-    background-color: #8fac55;
-    text-decoration: line-through;
 }

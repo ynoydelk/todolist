@@ -1,0 +1,9 @@
+--CORES--
+Coral; #FF7F50
+Tomato; #FF6347
+OrangeRed; #FF4500
+DarkOrange; #FF8C00
+Orange; #FFA500
+
+--FONTS--
+font-family: "Spicy Rice", system-ui;
