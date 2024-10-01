@@ -7,3 +7,16 @@ Orange; #FFA500
 
 --FONTS--
 font-family: "Spicy Rice", system-ui;
+
+--JS--
+1º LISTA DE TAREFAS
+2º SABER QUANDO O BOTÃO FOI CLICADO
+3º PEGAR O TEXTO DO INPUT
+4º COLOCAR O TEXTO NO LISTA DE TAREFAS
+5º SISTEMA DE DELETAR A TAREFA
+
+FUNÇÕES - comando somente executado quando chamado
+VARIÁVEL - comando onde se pode guardar coisas dentro
+DOCUMENT - ARQUIVO HTML
+QUERYSELECTOR - PROCURAR UM ARQUIVO
+VALUE - VALOR DO CODIGO
